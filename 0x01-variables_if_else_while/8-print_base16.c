@@ -10,13 +10,13 @@ int a = '0';
 int b = 'a';
 while (a <= '9')
 {
-putchar(a)
-a++
+putchar(a);
+a++;
 }
 while (b <= 'f')
 {
 putchar(b);
-b++
+b++;
 }
 putchar(10);
 return (0);
