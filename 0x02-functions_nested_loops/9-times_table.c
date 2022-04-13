@@ -13,6 +13,8 @@ int tens = 0;
 int n = 0;
 while (row < 10)
 {
+while (col < 10)
+{
 n = col * row;
 units = n % 10;
 tens = (n - units) / 10;
