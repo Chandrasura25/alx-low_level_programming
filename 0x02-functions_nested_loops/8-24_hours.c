@@ -4,7 +4,7 @@
  */
 void jack_bauer(void)
 {
-int hour, h1, h2, min, m1,m2;
+int hour, h1, h2, min, m1, m2;
 for (hour = 0; hour <= 23; ++hour)
 {
 h1 = hour / 10;
