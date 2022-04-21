@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_half.c - prints a string,followed by a new line
+ * puts_half.c - prints half a string,followed by a new line
  * @str: pointer to the string to print
  * Return: void
  */
@@ -21,7 +21,7 @@ _putchar(str[i]);
 }
 else if (len % 2)
 {
-for (n = (len - 1) / 2; n < len - 1;n++)
+for (n = (len - 1) / 2; n < len - 1; n++)
 {
 _putchar(str[n + 1]);
 }
